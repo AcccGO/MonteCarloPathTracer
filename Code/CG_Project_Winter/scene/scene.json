@@ -1,0 +1,44 @@
+{
+    "scene":
+    [
+        {
+            "name":"Cornell Box",
+            "root_path":"../scene/cbox/",
+            "obj_path":"cbox.obj",
+            "camera":
+            {
+                "position":"278, 273, -800",
+                "look-at":"278, 273, -799",
+                "up":"0,1,0",
+                "fov":39.3077,
+                "film-resolution":"512,512"
+            }
+        },
+        {
+            "name":"Dinning Room",
+            "root_path":"../scene/diningroom/",
+            "obj_path":"diningroom.obj",
+            "camera":
+            {
+                "position":"-0.5, 3, 5.5",
+                "look-at":"-0.5, 2, 0",
+                "up":"0,1,0",
+                "fov":60.0,
+                "film-resolution":"1280,720"
+            }
+        },
+        {
+            "name":"Veach MIS",
+            "root_path":"../scene/veach_mis/",
+            "obj_path":"mis.obj",
+            "camera":
+            {
+                "position":"0, 2, 15",
+                "look-at":"0, -2, 2.5",
+                "up":"0,1,0",
+                "fov":28.0,
+                "film-resolution":"768,512"
+            }
+        }
+    ]
+}

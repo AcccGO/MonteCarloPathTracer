@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{c4d0167c-c996-4268-8f10-918875eb9425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{1e019333-66fb-4616-ad95-557de2c4805b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="path_tracing">
+      <UniqueIdentifier>{139e4f53-5d8e-4ef9-af31-0f3ddc788784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{fa949db3-4cf3-4f91-bd9b-652093aaa3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="material">
+      <UniqueIdentifier>{c7f5e248-ccb9-4fa9-bd00-e5da604f8da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="light">
+      <UniqueIdentifier>{c5d0be72-325d-4196-8ecd-3a6b3084ae4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{936cafec-aedf-43cb-bc83-cc2ec47ebce8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sphere.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>path_tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_group.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object3d.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="perspective_camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="kd_tree.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_string.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>path_tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="hit.cpp">
+      <Filter>path_tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="kd_node.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="path_tracing.cpp">
+      <Filter>path_tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="emitter.cpp">
+      <Filter>light</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>material</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sphere.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_group.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="perspective_camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="kd_tree.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_string.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>path_tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="hit.h">
+      <Filter>path_tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="kd_node.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="path_tracing.h">
+      <Filter>path_tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="parallelfor.h">
+      <Filter>path_tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="emitter.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>material</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scene.json">
+      <Filter>scene</Filter>
+    </None>
+  </ItemGroup>
+</Project>

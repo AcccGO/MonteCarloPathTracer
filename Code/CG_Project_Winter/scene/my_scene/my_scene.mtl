@@ -1,0 +1,53 @@
+newmtl bunny_glass1
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.13 0.71 0.18
+Ni 1.50
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl bunny_diffuse1
+illum 4
+Kd 0.13 0.71 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+
+newmtl bunny_light1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 5 5 5
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl cbox:blue
+illum 4
+Kd 0.05 0.05 0.95
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl cbox:light
+illum 4
+Kd 0.00 0.00 0.00
+Ka 10.00 10.00 10.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl cbox:red
+illum 4
+Kd 0.95 0.05 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl cbox:silver
+illum 4
+Kd 1.00 1.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.97 0.99 0.43
+Ns 98.00
+newmtl cbox:white
+illum 4
+Kd 0.85 0.75 0.65
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
